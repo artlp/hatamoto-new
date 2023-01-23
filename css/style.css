@@ -1,0 +1,393 @@
+body {
+    overflow-y: scroll;
+    text-align: center;
+    font-size: x-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+a {
+    color: #a70000;
+}
+.logo_text {
+    width: 470px;
+}
+.logo_text img,
+.banner_top_right img,
+.section img{
+    width: 100%;
+}
+section {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+}
+.red_line {
+    width: 31%;
+}
+.red_line img,
+.line_text img {
+    width: 100%;
+}
+.head_top_line {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.lang_top a {
+    display: inline-block;
+    width: 35px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+}
+
+.lang_top img {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation_info_top {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu_navigation {
+    display: inline-block;
+    width: 225px;
+}
+.logo_text {
+    display: inline-block;
+    max-width: 427px;
+    width: 100%;
+}
+
+.nav_link_banner {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.wrap_banner_img {
+    background: url(../images/mn-cer.jpg);
+    display: block;
+    width: 100%;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.banner_bottom_line {
+    width: 100%;
+    display: inline-block;
+    height: 14px;
+    background-image: url(../images/mn-bg.gif);
+
+}
+.logo_banner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.wrap_content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.sidbar {
+    display: inline-block;
+    width: 217px;
+    float: left;
+    min-height: 432px;
+    border-bottom: 4px solid #a70000;
+    margin-right: 5px;
+    background: #ccc;
+}
+.wrapper_content {
+    min-height: 432px;
+    border-bottom: 4px solid #d2d2d2;
+}
+.right_block {
+    display: inline-block;
+    width: 67%;
+}.line_text {
+    display: block;
+    margin: 5px 0px 10px 0px;
+}
+.text_top p {
+    margin: 0px 0 10px 0px;
+    color: #000;
+    font-size: x-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.footer_block {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}.link_news a {
+    color: #000;
+    font-weight: 600;
+}
+.footer {
+    margin-top: 20px;
+    width: 67%;
+}
+.footer_menu {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.footer_menu font {
+    margin: 0 5px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.list_menu {
+    display: block;
+    margin: 10px 0px;
+}
+.list_menu a {
+    font-size: x-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.footer_text_info {
+    text-align: left;
+    margin-top: 10px;
+}
+.copy {
+    text-align: left;
+}
+.date_news p {
+font-size: x-small;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-weight: 600;
+color: #fff;
+background: #749d4b;
+padding: 3px 0px;
+display: block;
+width: 77px;
+}
+.text_news {
+    text-align: left;
+    color: rgb(93, 93, 93);
+    font-size: x-small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.block_list_news {
+    display: inline-block;
+    background-image: url(../images/mn-news-bg.gif);
+    padding: 10px 0px;
+}
+.line {
+    background-image: url(../images/mn-news-bg.gif);
+}
+.list_news {
+    padding: 0 25px;
+}
+/*ABOUT*/
+
+.sidbar.about .list_news,
+.sidbar.products .list_news {
+    padding: 0px;
+}
+.section_list ul {
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.section_list ul li {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.section_list .name_list {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+    margin: 5px 0px;
+}
+.section_list .info_list {
+    display: inline-block;
+    width: 68%;
+    text-align: left;
+    margin: 5px 0px;
+}
+
+/*END ABOUT*/
+
+/*accessories*/
+.sidbar.accessories .text_news {
+    padding: 0 20px;
+}
+.sidbar.accessories .list_news {
+    padding: 0px;
+}
+.section_list.accessories .name_list {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    margin: 5px 0px;
+}.logo_brand {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+/*END accessories*/
+
+
+/*START SET*/
+.section_list.set p.name_list {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin: 5px 0px;
+}
+.section_list.set p.name_list img {
+    width: 100%;
+}
+.section_list.set .info_list {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    margin: 5px 0px;
+}
+/*END SET*/
+.text_top p .img_text {
+    width: 100%;
+}
+.wrapper_content.sitemap .text_top {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.wrapper_content.contact{
+    min-height: 562px;
+}
+.wrapper_content.products {
+min-height: 742px;
+}
+
+@media (max-width: 700px){
+    .navigation_info_top {
+        justify-content: center;
+    }
+    .wrap_banner_img {
+        background: url(../images/mn-cer.jpg);
+        background-size: cover;
+        background-position: 100% 0px;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media (max-width: 674px){
+    .wrapper_content.contact,
+    .wrapper_content.products  {
+        min-height: 100%;
+    }
+    .text_top p {
+        padding: 0 20px;
+    }
+
+    .sidbar {
+        height: 100%;
+        margin-top: 20px;
+    }
+    .sidbar.about .list_news {
+        margin-bottom: 30px;
+    }
+    .wrapper_content {
+        min-height: 100%;
+    }
+    .sidbar.about .img_top_sidbar {
+        display: none;
+    }
+    .right_block {
+        width: 100%;
+    }
+    .sidbar {
+        order: 2;
+        width: 100%;
+    }
+    .footer_block {
+        order: 3;
+    }
+    .footer {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .block_list_news {
+        display: flex;
+        width: 100%;
+        vertical-align: top;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .list_news {
+        padding: 0 25px;
+        width: 300px;
+    }
+    .line {
+        display: none;
+    }
+    .logo_brand img {
+        width: 100%;
+    }
+    .sidbar.accessories .list_news {
+        margin-bottom: 20px;
+    }
+    .sidbar.accessories .img_top_sidbar {
+        display: none;
+    }
+    .section_list.accessories .name_list img {
+        width: 100%;
+    }
+    .sidbar.sportX {
+        display: none;
+    }
+}
+
+@media (max-width: 398px){
+    .logo_banner a {
+        width: 120px;
+        display: block;
+    }
+.nav_link_banner {
+    justify-content: center;
+}
+.nav_link_banner a {
+    width: 120px;
+}
+.nav_link_banner a img {
+    width: 100%;
+    height: 70px;
+}
+.logo_banner img {
+    width: 100%;
+}
+.footer {
+    padding: 0 10px;
+}
+
+.section_list.accessories .name_list {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin: 5px 0px;
+}
+.section_list ul li {
+    flex-wrap: wrap;
+}
+}

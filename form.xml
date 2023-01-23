@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="form.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="533"
+ height="1009"
+ bkcolor="0xFFFFFF"
+ transparent="t"
+ fontcolor="0x000000"
+ themecolor="0x00CCFF"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The E-Mail address you entered does not match !"
+ reqmessage="One or More Fields are Required"
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf"
+>
+
+<hidden
+ name="thankyoupage"
+ value="http://www.headhunter31.com/thnx.html"
+></hidden>
+
+<hidden
+ name="subject"
+ value="HH31 Formulaire"
+></hidden>
+
+<textinput
+ name="01 Nom"
+ x="39"
+ y="37"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="02 Prenom"
+ x="229"
+ y="37"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="03 Nombre d&apos;enfant(s)"
+ x="39"
+ y="83"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="04 Date de naissance"
+ x="38"
+ y="133"
+ w="73"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="05 Nombre d&apos;enfant(s)"
+ x="39"
+ y="183"
+ w="72"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<checkbox
+ name="06"
+ x="39"
+ y="222"
+ w="48"
+ h="19"
+ label="Marie"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="07"
+ x="109"
+ y="222"
+ w="77"
+ h="19"
+ label="Celibataire"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="08"
+ x="199"
+ y="222"
+ w="84"
+ h="19"
+ label="Vie maritale"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<textinput
+ name="09 Adresse"
+ x="39"
+ y="267"
+ w="364"
+ h="22"
+ initvalue=""
+ maxchars="50"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="10 Telephone"
+ x="39"
+ y="316"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="11 Numero de securite sociale"
+ x="39"
+ y="366"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="12 Categorie de Permis de conduire"
+ x="39"
+ y="416"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="13 Moyen de transport"
+ x="39"
+ y="466"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<checkbox
+ name="14"
+ x="39"
+ y="522"
+ w="42"
+ h="19"
+ label="Jour"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="15"
+ x="39"
+ y="542"
+ w="38"
+ h="19"
+ label="Nuit"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="16"
+ x="119"
+ y="522"
+ w="74"
+ h="19"
+ label="Week-End"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="17"
+ x="119"
+ y="542"
+ w="44"
+ h="19"
+ label="Ferie"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="18"
+ x="39"
+ y="593"
+ w="36"
+ h="19"
+ label="Bar"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="19"
+ x="39"
+ y="612"
+ w="72"
+ h="19"
+ label="Brasserie"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="20"
+ x="39"
+ y="632"
+ w="79"
+ h="19"
+ label="Restaurant"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="21"
+ x="158"
+ y="592"
+ w="45"
+ h="19"
+ label="Hotel"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="22"
+ x="158"
+ y="612"
+ w="73"
+ h="19"
+ label="Night Club"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="23"
+ x="158"
+ y="632"
+ w="61"
+ h="19"
+ label="Bowling"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<submitbutton
+ name="Submit Button"
+ x="39"
+ y="966"
+ w="178"
+ h="21"
+ label="Envoyer"
+ fontname="Arial"
+ fontcolor="0x000000"
+ fontbold="bold"
+  fontsize="12"
+></submitbutton>
+
+<label
+ name="My Text 1"
+ x="39"
+ y="499"
+ w="87"
+ h="16"
+ text="Disponibilite:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 2"
+ x="39"
+ y="569"
+ w="142"
+ h="16"
+ text="Type d&apos;etablissement:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="39"
+ y="19"
+ w="37"
+ h="16"
+ text="Nom:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="229"
+ y="19"
+ w="58"
+ h="16"
+ text="Prenom:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="39"
+ y="65"
+ w="125"
+ h="16"
+ text="Nom de jeune fille:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="39"
+ y="115"
+ w="124"
+ h="16"
+ text="Date de naissance:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 7"
+ x="39"
+ y="165"
+ w="127"
+ h="16"
+ text="Nombre d&apos;enfant(s):"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="39"
+ y="249"
+ w="58"
+ h="16"
+ text="Adresse:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="39"
+ y="298"
+ w="76"
+ h="16"
+ text="Telephone:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 10"
+ x="39"
+ y="348"
+ w="181"
+ h="16"
+ text="Numero de securite sociale:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 11"
+ x="39"
+ y="398"
+ w="218"
+ h="16"
+ text="Categorie de Permis de conduire:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 12"
+ x="39"
+ y="448"
+ w="130"
+ h="16"
+ text="Moyen de transport:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<textinput
+ name="24 Formation"
+ x="39"
+ y="677"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="25"
+ x="39"
+ y="725"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<label
+ name="My Text 13"
+ x="39"
+ y="759"
+ w="76"
+ h="16"
+ text="Recherche:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 14"
+ x="39"
+ y="659"
+ w="73"
+ h="16"
+ text="Formation:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 15"
+ x="39"
+ y="707"
+ w="113"
+ h="16"
+ text="Langues parlees:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<checkbox
+ name="26"
+ x="39"
+ y="778"
+ w="83"
+ h="19"
+ label="Plein temps"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="27"
+ x="138"
+ y="778"
+ w="69"
+ h="19"
+ label="Mi-temps"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<checkbox
+ name="28"
+ x="228"
+ y="778"
+ w="46"
+ h="19"
+ label="Extra"
+ labelPos="right"
+ value="checked"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></checkbox>
+
+<textinput
+ name="28 Quartier que vous habitez"
+ x="39"
+ y="825"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<label
+ name="My Text 16"
+ x="39"
+ y="807"
+ w="172"
+ h="16"
+ text="Quartier que vous habitez:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 17"
+ x="39"
+ y="861"
+ w="173"
+ h="16"
+ text="Experience professionelle:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<textarea
+ name="29 Experience professionelle"
+ x="40"
+ y="880"
+ w="426"
+ h="74"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<resetbutton
+ name="Reset Button"
+ x="228"
+ y="966"
+ w="104"
+ h="21"
+ label="Effacer"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></resetbutton>
+
+<label
+ name="My Text 18"
+ x="234"
+ y="297"
+ w="48"
+ h="16"
+ text="E-mail:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<textinput
+ name="30 E-mail"
+ x="236"
+ y="316"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+</form>

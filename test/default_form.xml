@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="default_form.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="350"
+ height="369"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0x000000"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="true"
+ verifymessage="The E-Mail address you entered does not match !"
+ reqmessage="One or More Fields are Required"
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf"
+>
+
+<hidden
+ name="subject"
+ value="My Contact Form"
+></hidden>
+
+<textinput
+ name="My Input Box 2"
+ x="12"
+ y="118"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<label
+ name="My Text 3"
+ x="12"
+ y="98"
+ w="157"
+ h="16"
+ text="Your E-Mail Address:"
+ fontbold="bold"
+  fontname="Georgia"
+  fontcolor="0x800000"
+  fontsize="13"
+></label>
+
+<submitbutton
+ name="Submit Button"
+ x="0"
+ y="0"
+ w="100"
+ h="20"
+ label="Submit"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></submitbutton>
+
+</form>
